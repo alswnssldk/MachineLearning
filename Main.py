@@ -36,7 +36,7 @@ def AI(PicherId):
                             breaks_data = Pich.get("breaks")
                             coords_data = Pich.get("coordinates")
 
-                            # breaks가 딕셔너리일 때만 .values() 사용
+                  
                             if isinstance(breaks_data, dict) and isinstance(coords_data, dict):
                                 PicherBreaks.append(list(breaks_data.values()))
                                 PicherCoordinates.append(list(coords_data.values()))
